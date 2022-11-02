@@ -1,0 +1,111 @@
+body{
+    background-image: url(/public/company.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container-login{
+    position: relative;
+    left: 400px;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 15px;
+    text-align: center;
+}
+.information{
+    text-align: center;
+}
+.userlogin-name{
+    width: 200px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid purple;
+}
+.userlogin-pass{
+    width: 200px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid purple;
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 130px;
+}
+button{
+    width: 150px;
+    border: none;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 8px;
+    position: relative;
+    left: 40px;
+    margin-top: 50px;
+    color: #fff;
+}
+.username-alert{
+    font-size: 10px;
+    margin-right: 150px;
+}
+.password-alert{
+    font-size: 12px;
+    margin-right: 150px;
+}
+.dev-company{
+    position: relative;
+    top: 20px;
+}
+@media only screen and (max-width: 640px) {
+    body{
+        font-size: 10px;
+        background-color: bisque !important;
+    }
+    .container-login{
+        position: relative;
+        top: 200px;
+        left: 0px;
+        width: 380px;
+        height: 500px;
+    }
+    .userlogin-name{
+        width: 180px;
+        position: relative;
+        right: 55px;
+    }
+    .userlogin-pass{
+        width: 180px;
+        position: relative;
+        right: 55px;
+    }
+    .button-login{
+        width: 100px;
+        border: none;
+        background-color: blueviolet;
+        padding: 5px;
+        border-radius: 8px;
+        left: 0px;
+        margin-right: 70px;
+        color: #fff;
+        cursor: pointer;
+        
+    }
+    .dev-company{
+        font-size: 13px;
+    }
+    .username-alert{
+        display: inline;
+    }
+    
+};
